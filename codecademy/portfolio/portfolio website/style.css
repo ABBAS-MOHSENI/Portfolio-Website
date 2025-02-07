@@ -16,13 +16,6 @@ header ol {
     z-index: 1;
 }
 
-header li {
-    padding: 10px;
-}
-
-header ol li {
-    list-style-type: none;
-}
 
 #logo{
     z-index: 0;
@@ -42,8 +35,9 @@ header ol li {
 }
 
 #aboutme{
-    width: 43%;
+    width: 65%;
     height: 100%;
+    font-size: 30px;
 }
 
 #githublogo{
@@ -55,3 +49,26 @@ header ol li {
 #contactMe{
     font-size: 20px;
 }
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 55%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
