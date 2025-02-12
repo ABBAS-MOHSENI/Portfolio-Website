@@ -1,0 +1,116 @@
+body{
+    background-color: #1f1e1e;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(7, 148, 33, 1);
+    position: relative;
+    top: -1%;
+    left: 0%;
+}
+
+header ol {
+    position: absolute;
+    left: 75vw;
+    bottom: 12%;
+    display: flex;
+    font-size: 1.3rem;
+    z-index: 1;
+}
+
+header ol li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+#logo {
+    z-index: 0;
+    width: 5%;
+    border: 50px;
+    position: relative;
+    left: 1%;
+    top: 15%;
+}
+
+#selfie {
+    position: absolute;
+    left: 55% ;
+    top: 7em;
+    width: 40%;
+}
+
+@media screen {
+    
+}
+
+#aboutme {
+    width: 65%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#githublogo {
+    position: relative;
+    width: 10%;
+}
+
+#contactMe {
+    font-size: 20px;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 55%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 52.65%;
+}
+
+#contactMe{
+    font-size: 40px;
+}
+
+#email{
+    font-size: 40px;
+}
+
+.skillpic{
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 0px;
+   
+}
+.listSkills{
+display: flex;
+    width: 30%;
+    list-style-type: none;
+}
+
+ p ,h3, h2, header {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
