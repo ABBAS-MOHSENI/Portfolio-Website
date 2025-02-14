@@ -4,59 +4,60 @@ body{
 
 header {
     height: 90px;
-    width: 100%;
+    box-sizing: border-box;
     background-color: rgba(7, 148, 33, 1);
-    position: relative;
-    top: -1%;
-    left: 0%;
-}
-
-header ol {
-    position: absolute;
-    left: 75vw;
-    bottom: 12%;
     display: flex;
-    font-size: 1.3rem;
-    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+header ul#links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-header ol li {
-    list-style-type: none;
-    padding: 10px;
+header ul#links li {
+    margin-left: 20px;
+}
+
+header ul#links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
 
 a {
-    color: white;
+    color: rgb(163, 160, 160);
 }
 
 #logo {
-    z-index: 0;
-    width: 5%;
-    border: 50px;
-    position: relative;
-    left: 1%;
-    top: 15%;
-}
+    width: 5rem;
+} 
 
-#selfie {
+#selfie { 
+    width: 35%;
     position: absolute;
-    left: 55% ;
-    top: 7em;
-    width: 40%;
+    left: 55%;
+    top: 20%;
 }
 
-@media screen {
-    
-}
 
-#aboutme {
-    width: 65%;
+.aboutme {
+    width: 45%;
     height: 100%;
-    font-size: 30px;
+    font-size: 30px;  
+}
+
+#abouth2{
+    text-decoration: underline;
+    text-align: center;
 }
 
 #githublogo {
-    position: relative;
+     
     width: 10%;
 }
 
@@ -104,9 +105,11 @@ a {
    
 }
 .listSkills{
-display: flex;
+    display: flex;
     width: 30%;
     list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
  p ,h3, h2, header {
@@ -114,3 +117,116 @@ display: flex;
     font-weight: 300;
     font-style: normal;
   }
+
+  #contactMe{
+    text-align: center;
+    text-decoration: gray;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+#portfolio{
+        font-size: 2rem;
+        text-decoration: underline;
+}
+
+#skills{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.skillpic{
+    margin: 0 5px;
+    
+}
+
+  @media (max-width: 516px) {
+    header ul#links a {
+        font-size: 20px;
+    }
+
+    header ul#links li {
+        margin-left: 10px;
+    }
+
+    header {
+        padding: 0 10px;
+    }
+    #logo{
+        width: 4rem;
+    }
+    #selfie{
+        position: relative;
+        width: 140%;
+        height: auto;
+        left: 40%;
+    }
+    #aboutme{
+        width: 215%;
+    }
+    .aboutme h2{
+        width: 190%;
+        font-size: 45px;
+        text-align: center;
+    }
+    #portfolio{
+        text-align: center;
+        font-size: 30px;
+    }
+    #skills{
+        text-align: center;
+        font-size: 30px;
+    }
+    .collapsible{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .content{
+        margin-left: 65px;
+    }
+    .listSkills{
+        margin-left: 67px;
+    }
+   #email{
+    width: auto;
+    font-size: 1.5rem;
+   }
+   #githublogo{
+    width: auto ;
+   }
+}
+
+@media (min-width: 516px) and (max-width:800px) {
+
+#portfolio{
+    text-align: center;
+    font-size: 30px;
+}
+#skills{
+    text-align: center;
+    font-size: 30px;
+}
+.collapsible{
+    text-align: center;
+    margin-left: 170px;
+}
+.content{
+    margin-left: 160px;
+}
+.listSkills{
+    display: inline-flex;
+    text-align: left;
+    padding-left: 
+}
+#listbox{
+    text-align: center;
+    width: auto;
+}
+
+}
+
+
+
+
+
+

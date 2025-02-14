@@ -3,32 +3,36 @@
 <head>
 <link rel="stylesheet" href="style.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 
 <header>
     <img id="logo" src="images/logo.svg" alt="logo">
 
-    <ol>
-        <li><a href="#aboutme">About</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
-        <li><a href="#Skills">Skills</a></li>
-    </ol>
+    <ul id="links">
+      <a href="#aboutme"><li>About</li></a>
+      <a href="#portfolio"><li>Portfolio</li></a>
+      <a href="contacts.html"><li>Contacts</li></a>
+      <a href="#skills"><li>Skills</li></a>
+    </ul>
+
 </header>
 
-<section id="aboutme">
-<h2>About Me</h2>
+<section class="aboutme">
+<h2 id="abouth2">About Me</h2>
 
 <p id="aboutme">Hello there, I'm Abbas I am a starting web developer that is currently improving my skills to make bigger and better websites, With the tools and skills that I am developing like javascript, html and css which you can read more about on the skills section 
     <br>
     <br> 
     I've had an interest in computers ever since i was little and always wanted to undertand what makes a computer work, think and how to make stuff for computers to do interesting things. 
-</section>
+
 </p>
 
 <img id="selfie" src="images/selfie2.jpg" alt="picture of me">
@@ -36,9 +40,11 @@
 
 </section>
 
-<section id="Portfolio">
+<h2 id="portfolio">Portfolio</h2>
 
-<h2>Portfolio</h2>
+<section id="PortfolioSkills">
+
+
 
      <button type="button" class="collapsible">Project 1</button>
         <div class="content">
@@ -58,13 +64,14 @@
     
 
 
-<h2 id="Skills">Skills</h2>
-
+<h2 id="skills">Skills</h2>
+<div id="listbox">
 <ol class="listSkills">
     <li  ><img class="skillpic" src="images/HTML5_logo_and_wordmark.svg.png"></li>
     <li><img class="skillpic" src="images/CSS3_logo_and_wordmark.svg"></li>
     <li><img class="skillpic" src="images/JavaScript-logo.png"></li>
 </ol>
+</div>
 <br>
 
 
